@@ -142,12 +142,12 @@ console.log(largestOfThree(num1, num2, num3));
  * Perform basic mathematical operations: addition, subtraction, multiply, Division
  */
 
-const prompt = require("prompt-sync")();
+// const prompt = require("prompt-sync")();
 
-let value1 = Number(prompt("Enter the first number: "));
-let value2 = Number(prompt("Enter the second  number: "));
-let operation = prompt("Enter the desired operation (+, -, /, *): ");
-let result = 0;
+// let value1 = Number(prompt("Enter the first number: "));
+// let value2 = Number(prompt("Enter the second  number: "));
+// let operation = prompt("Enter the desired operation (+, -, /, *): ");
+// let result = 0;
 
 // if (operation === "+") {
 //   result = value1 + value2;
@@ -172,21 +172,37 @@ let result = 0;
 
 // Calculator with switch case
 
-switch (operation) {
-  case "+":
-    console.log(value1 + value2);
-    break;
-  case "-":
-    console.log(value1 - value2);
-    break;
-  case "*":
-    console.log(value1 * value2);
-  case "/":
-    if (value1 !== 0 && value2 !== 0) {
-      console.log(value1 / value2);
-    } else {
-      console.error("Can't divide by zero");
+// switch (operation) {
+//   case "+":
+//     console.log(value1 + value2);
+//     break;
+//   case "-":
+//     console.log(value1 - value2);
+//     break;
+//   case "*":
+//     console.log(value1 * value2);
+//   case "/":
+//     if (value1 !== 0 && value2 !== 0) {
+//       console.log(value1 / value2);
+//     } else {
+//       console.error("Can't divide by zero");
+//     }
+//   default:
+//     console.log("You didn't choose a valid option");
+// }
+
+// exercise number 4: check if a number is prime
+
+function isPrime(number) {
+  if (number <= 1) {
+    return false;
+  }
+  for (let i = 2; i < number; i++) {
+    if (number % i === 0) {
+      return false;
     }
-  default:
-    console.log("You didn't choose a valid option");
+  }
+  return true;
 }
+
+console.log(isPrime(9));
