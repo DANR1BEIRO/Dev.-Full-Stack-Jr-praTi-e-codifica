@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/d659a900-4f9f-433b-a361-a0ca181bc96c)
+
 # Dev-Full-Stack-Jr-praTi-e-codifica
 
 Minha experiência no curso Trilha Dev. Full Stack Jr. 2025
