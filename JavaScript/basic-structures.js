@@ -100,3 +100,93 @@ switch (day) {
 }
 
 console.log(dayName); // Tuesday
+
+// Exercise 1: check if a number is odd or even
+
+let number2 = 20;
+
+number2 % 2 == 0 ? console.log("Even") : console.log("Odd");
+
+function isEvenOrOdd(number) {
+  if (number % 2 === 0) {
+    return "Is even!";
+  } else {
+    return "Is odd";
+  }
+}
+
+console.log(isEvenOrOdd(number2));
+
+// Exercise 2: Find the largest of three numbers
+
+let num1 = 4;
+let num2 = 1000;
+let num3 = 3;
+
+function largestOfThree(a, b, c) {
+  if (a > b && a > c) {
+    return "The largest is " + a;
+  } else if (b > a && b > c) {
+    return "The largest is " + b;
+  } else if (c > a && c > b) {
+    return "The largest is " + c;
+  } else {
+    return "The number are all equal, or there's a tie between two of them";
+  }
+}
+
+console.log(largestOfThree(num1, num2, num3));
+
+/**
+ * Exercise 3: Simple Calculator
+ * Perform basic mathematical operations: addition, subtraction, multiply, Division
+ */
+
+const prompt = require("prompt-sync")();
+
+let value1 = Number(prompt("Enter the first number: "));
+let value2 = Number(prompt("Enter the second  number: "));
+let operation = prompt("Enter the desired operation (+, -, /, *): ");
+let result = 0;
+
+// if (operation === "+") {
+//   result = value1 + value2;
+// } else if (operation === "-") {
+//   result = value1 - value2;
+// } else if (operation === "/") {
+//   if (value1 !== 0 && value2 !== 0) {
+//     result = value1 / value2;
+//   } else {
+//     console.error("Can't divide by zero!");
+//   }
+// } else if (operation === "*") {
+//   result = value1 * value2;
+// } else {
+//   console.log("Ivalid operation!");
+//   result = null;
+// }
+
+// if (result !== undefined) {
+//   console.log("Result:", result);
+// }
+
+// Calculator with switch case
+
+switch (operation) {
+  case "+":
+    console.log(value1 + value2);
+    break;
+  case "-":
+    console.log(value1 - value2);
+    break;
+  case "*":
+    console.log(value1 * value2);
+  case "/":
+    if (value1 !== 0 && value2 !== 0) {
+      console.log(value1 / value2);
+    } else {
+      console.error("Can't divide by zero");
+    }
+  default:
+    console.log("You didn't choose a valid option");
+}
