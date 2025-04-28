@@ -154,3 +154,4 @@ Número de Aulas Previsto: 15
 - [ ] 15 Projeto Final: Deploy de uma Aplicação Fullstack com IA Integrada e Python
 
 **Projeto Final:** Desenvolvimento de uma Aplicação Web Completa
+
