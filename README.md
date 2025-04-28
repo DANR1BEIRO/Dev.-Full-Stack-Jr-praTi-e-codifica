@@ -14,7 +14,7 @@ Número de Aulas Previsto: 20
 - [x] 3 Introdução à Programação: Linguagem EcmaScript/JavaScript
 - [x] 4 Variáveis, Tipos de Dados e Operadores em JavaScript
 - [x] 5 Estruturas de Controle: Condicionais (if, else, switch)
-- [ ] 6 Estruturas de Controle: Laços de Repetição (for, while, do...while)
+- [x] 6 Estruturas de Controle: Laços de Repetição (for, while, do...while)
 - [ ] 7 Introdução às Estruturas de Dados: Arrays Unidimensionais
 - [ ] 8 Manipulação de Arrays: Arrays Bidimensionais
 - [ ] 9 Funções em JavaScript: Definição e Chamadas
