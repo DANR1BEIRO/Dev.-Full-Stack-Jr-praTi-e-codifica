@@ -206,3 +206,4 @@ function isPrime(number) {
 }
 
 console.log(isPrime(9));
+
