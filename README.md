@@ -1,4 +1,6 @@
-![image](https://github.com/user-attachments/assets/d659a900-4f9f-433b-a361-a0ca181bc96c)
+
+![image](https://github.com/user-attachments/assets/d4d1115a-b10a-4969-b434-18d3d4c12474)
+
 
 # Dev-Full-Stack-Jr-praTi-e-codifica
 
