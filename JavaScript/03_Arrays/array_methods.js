@@ -115,22 +115,36 @@ for (let i = 1; i < 11; i++) {
 }
 console.table(matriz);
 
-//        idx:    0         1         2
-let matrix = [[1, 2, 3],[4, 5, 6],[7, 8, 9],
+
+let matrix = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9],
 ];
 
 function transpose_matrix(matrix) {
-    let transpose = []
-    for (let i = 0; i < matrix[0].length; i++) { // column
-        transpose[i] = []
+    let transpose = [];
+    for (let i = 0; i < matrix[0].length; i++) {
+        // column
+        transpose[i] = [];
         for (let j = 0; j < matrix.length; j++) {
-            transpose[i][j] = matrix[j][i]
+            transpose[i][j] = matrix[j][i];
         }
     }
     return transpose;
 }
 
-transpose_matrix(matrix).forEach(element => { 
-    console.log(element);
-    
+transpose_matrix(matrix).forEach((array) => {
+    console.log(array);
 });
+
+let sum2 = 0;
+let sum3 = 0;
+
+for (let i = 0; i < matrix.length; i++) {
+    sum2 += matrix[i][i];
+    sum3 += matrix[i][matrix.length - i - 1];
+}
+
+console.log(sum2);
+console.log(sum3);
