@@ -18,7 +18,7 @@ Número de Aulas Previsto: 20
 - [x] 5 Estruturas de Controle: Condicionais (if, else, switch)
 - [x] 6 Estruturas de Controle: Laços de Repetição (for, while, do...while)
 - [x] 7 Introdução às Estruturas de Dados: Arrays Unidimensionais
-- [ ] 8 Manipulação de Arrays: Arrays Bidimensionais
+- [x] 8 Manipulação de Arrays: Arrays Bidimensionais
 - [ ] 9 Funções em JavaScript: Definição e Chamadas
 - [ ] 10 Funções Avançadas: Escopo, Retorno e Procedimentos
 - [ ] 11 Objetos em JavaScript: Criação e Manipulação
