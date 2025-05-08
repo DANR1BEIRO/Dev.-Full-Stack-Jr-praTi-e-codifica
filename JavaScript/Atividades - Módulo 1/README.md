@@ -5,7 +5,7 @@
 - [x] Crie um programa que classifica a idade de uma pessoa em categorias (criança, adolescente, adulto, idoso) com base no valor fornecido, utilizando uma estrutura de controle if-else.
 - [x] Implemente um programa que recebe uma nota de 0 a 10 e classifica como "Aprovado", "Recuperação", ou "Reprovado" utilizando if-else if.
 - [x] Crie um menu interativo no console que oferece ao usuário a escolha de três opções. Utilize switch-case para implementar a lógica de cada opção selecionada.
-- [ ] Escreva um programa que calcula o Índice de Massa Corporal (IMC) de uma pessoa e determina a categoria de peso (baixo peso, peso normal, sobrepeso, obesidade) utilizando if-else.
+- [x] Escreva um programa que calcula o Índice de Massa Corporal (IMC) de uma pessoa e determina a categoria de peso (baixo peso, peso normal, sobrepeso, obesidade) utilizando if-else.
 - [ ] Ler três valores para os lados de um triângulo (A, B, C), verificar se formam um triângulo (A < B + C, B < A + C, C < A + B) e indicar o tipo (Isósceles: 2 lados iguais, Escaleno: todos diferentes, Equilátero: todos iguais).
 - [ ] Ler o número de maçãs compradas, calcular e escrever o valor total da compra (R$ 0,30 se < 12, R$ 0,25 se >= 12).
 - [ ] Escreva um algoritmo para ler 2 valores diferentes e escrevê-los em ordem crescente.
