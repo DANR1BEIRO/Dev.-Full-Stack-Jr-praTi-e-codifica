@@ -19,8 +19,8 @@ Número de Aulas Previsto: 20
 - [x] 6 Estruturas de Controle: Laços de Repetição (for, while, do...while)
 - [x] 7 Introdução às Estruturas de Dados: Arrays Unidimensionais
 - [x] 8 Manipulação de Arrays: Arrays Bidimensionais
-- [ ] 9 Funções em JavaScript: Definição e Chamadas
-- [ ] 10 Funções Avançadas: Escopo, Retorno e Procedimentos
+- [x] 9 Funções em JavaScript: Definição e Chamadas
+- [x] 10 Funções Avançadas: Escopo, Retorno e Procedimentos
 - [ ] 11 Objetos em JavaScript: Criação e Manipulação
 - [ ] 12 Depuração e Ferramentas de Desenvolvimento (Debugging)
 - [ ] **Tarefa 1**
