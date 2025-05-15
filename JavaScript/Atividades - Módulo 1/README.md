@@ -9,7 +9,7 @@
 - [x] 6. Ler três valores para os lados de um triângulo (A, B, C), verificar se formam um triângulo (A < B + C, B < A + C, C < A + B) e indicar o tipo (Isósceles: 2 lados iguais, Escaleno: todos diferentes, Equilátero: todos iguais).
 - [x] 7. Ler o número de maçãs compradas, calcular e escrever o valor total da compra (R$ 0,30 se < 12, R$ 0,25 se >= 12).
 - [x] 8. Escreva um algoritmo para ler 2 valores (considere que não serão lidos valores iguais) diferentes e escrevê-los em ordem crescente.
-- [ ] 9. Implemente um programa que exibe uma contagem regressiva de 10 até 1 no console utilizando um loop for.
+- [x] 9. Implemente um programa que exibe uma contagem regressiva de 10 até 1 no console utilizando um loop for.
 - [ ] 10. Escreva um algoritmo para ler um número inteiro e escrevê-lo na tela 10 vezes.
 - [ ] 11. Escreva um programa que solicita ao usuário 5 números e calcula a soma total utilizando um loop for.
 - [ ] 12. Crie um programa que exibe a tabuada (de 1 a 10) de um número fornecido pelo usuário utilizando um loop for.
