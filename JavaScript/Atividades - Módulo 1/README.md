@@ -10,7 +10,7 @@
 - [x] 7. Ler o número de maçãs compradas, calcular e escrever o valor total da compra (R$ 0,30 se < 12, R$ 0,25 se >= 12).
 - [x] 8. Escreva um algoritmo para ler 2 valores (considere que não serão lidos valores iguais) diferentes e escrevê-los em ordem crescente.
 - [x] 9. Implemente um programa que exibe uma contagem regressiva de 10 até 1 no console utilizando um loop for.
-- [ ] 10. Escreva um algoritmo para ler um número inteiro e escrevê-lo na tela 10 vezes.
+- [x] 10. Escreva um algoritmo para ler um número inteiro e escrevê-lo na tela 10 vezes.
 - [ ] 11. Escreva um programa que solicita ao usuário 5 números e calcula a soma total utilizando um loop for.
 - [ ] 12. Crie um programa que exibe a tabuada (de 1 a 10) de um número fornecido pelo usuário utilizando um loop for.
 - [ ] 13. Fazer um algoritmo para receber números decimais até que o usuário digite 0 e fazer a média aritmética desses números.
