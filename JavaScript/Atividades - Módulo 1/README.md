@@ -1,3 +1,33 @@
+# Exercícios de JavaScript com Node.js
+
+Este projeto contém 15 exercícios escritos em JavaScript com Node.js.
+
+## Pré-requisitos
+
+Antes de começar, você precisa ter o Node.js instalado na sua máquina.  
+Recomenda-se a versão 14 ou superior.
+
+## ⚙️ Instalação
+
+Instale a única dependência necessária executando:
+
+```bash
+npm install
+```
+
+## Como executar os exercícios
+
+Cada exercício está localizado na pasta JavaScript.
+Para rodar um exercício, utilize o comando abaixo, substituindo exercicio1.js pelo nome do arquivo desejado:
+
+```bash
+node JavaScript/exercicio1.js
+```
+
+## Observação
+🚨 Este projeto utiliza apenas a biblioteca _prompt-sync_ para permitir entrada de dados pelo terminal.
+
+
 ![image](https://github.com/user-attachments/assets/ecc46064-7188-4453-b363-b407e7bcef41)
 
 ### Módulo 1: Desafios Propostos - Curso Dev Fullstack +Prati e Codifica
