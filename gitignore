@@ -8,4 +8,4 @@
 !/JavaScript/
 
 # Não ignorar qualquer arquivo ou subpasta dentro de JavaScript
-!/JavaScript/**
+!/JavaScript/**'
