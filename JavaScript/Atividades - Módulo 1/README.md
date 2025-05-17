@@ -15,4 +15,4 @@
 - [x] 12. Crie um programa que exibe a tabuada (de 1 a 10) de um número fornecido pelo usuário utilizando um loop for.
 - [x] 13. Fazer um algoritmo para receber números decimais até que o usuário digite 0 e fazer a média aritmética desses números.
 - [x] 14. Crie um programa que calcula o fatorial de um número fornecido pelo usuário utilizando um loop for ou while.
-- [ ] 15. Escreva um programa que gera e imprime os primeiros 10 números da sequência de Fibonacci utilizando um loop for.
+- [x] 15. Escreva um programa que gera e imprime os primeiros 10 números da sequência de Fibonacci utilizando um loop for.
