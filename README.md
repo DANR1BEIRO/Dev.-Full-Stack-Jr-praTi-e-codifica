@@ -23,8 +23,8 @@ Número de Aulas Previsto: 20
 - [x] 10 Funções Avançadas: Escopo, Retorno e Procedimentos
 - [x] 11 Objetos em JavaScript: Criação e Manipulação
 - [x] 12 Depuração e Ferramentas de Desenvolvimento (Debugging)
-- [ ] **Tarefa 1**
-- [ ] 13 Recursividade: Conceito e Exemplos em JavaScript
+- [x] **Tarefa 1**
+- [x] 13 Recursividade: Conceito e Exemplos em JavaScript
 - [ ] 14 Estruturas de Dados: Pilhas (Stacks)
 - [ ] 15 Estruturas de Dados: Filas e Deques (Queues e Deques)
 - [ ] 16 Listas Ligadas (Linked Lists): Conceito e Implementação

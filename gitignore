@@ -1,3 +1,11 @@
+# Ignorar tudo por padrão
 *
-!JavaScript/
-!README.md
+
+# Não ignorar o arquivo README.md na raiz
+!/README.md
+
+# Não ignorar a pasta JavaScript na raiz
+!/JavaScript/
+
+# Não ignorar qualquer arquivo ou subpasta dentro de JavaScript
+!/JavaScript/**
