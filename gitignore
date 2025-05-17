@@ -1,7 +1,0 @@
-# Ignora tudo
-/*
-
-# Exceto README.md e a pasta JavaScript
-!/README.md
-!/JavaScript/
-!/JavaScript/**
