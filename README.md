@@ -22,7 +22,7 @@ Número de Aulas Previsto: 20
 - [x] 9 Funções em JavaScript: Definição e Chamadas
 - [x] 10 Funções Avançadas: Escopo, Retorno e Procedimentos
 - [x] 11 Objetos em JavaScript: Criação e Manipulação
-- [ ] 12 Depuração e Ferramentas de Desenvolvimento (Debugging)
+- [x] 12 Depuração e Ferramentas de Desenvolvimento (Debugging)
 - [ ] **Tarefa 1**
 - [ ] 13 Recursividade: Conceito e Exemplos em JavaScript
 - [ ] 14 Estruturas de Dados: Pilhas (Stacks)
