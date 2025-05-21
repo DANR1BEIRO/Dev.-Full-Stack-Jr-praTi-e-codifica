@@ -58,15 +58,52 @@ class DoublyLinkedList {
         }
         return removedValue;
     }
+
+    printList() {
+        let current = this.head;
+        let output = "";
+        while (current) {
+            output += current.value + " <-> "; // Representa conexão dupla
+            current = current.next;
+        }
+        output += "null";
+        console.log("Lista: ", output);
+    }
+
+    removeFromFrontValue() {
+        /*
+        removeFromFront
+        1. Se a lista estiver vazia, retorna null
+        2. Armazena o valor do head atual
+        3. Se houver apenas um nó (head === tail):
+        - Define head e tail como null
+        4. Senão:
+        - O head passa a ser o próximo nó
+        - O prev do novo head é ajustado para null
+        5. Retorna o valor removido
+        */
+        if (!this.head) return null; // Lista vazia
+
+        const removedValue = this.head.value;
+        if (this.head === this.tail) {
+            // Apenas um nó na lista
+            this.head = this.tail = null;
+        } else {
+            this.head = this.head.next; // Avança o head
+            this.head.prev = null; // Remove a referência para o antigo head
+        }
+        return removedValue;
+    }
 }
 
-let dll = new DoublyLinkedList()
+let dll = new DoublyLinkedList();
 
-dll.addToFront(3)
-dll.addToFront(2)
-dll.addToFront(1)
-dll.addToEnd(4)
-dll.addToEnd(5)
+dll.addToFront(3);
+dll.addToFront(2);
+dll.addToFront(1);
+dll.addToEnd(4);
+dll.addToEnd(5);
 
 console.log(dll.removeFromFront());
-console.log(dll.head);
+console.log("------------------");
+console.log(dll.removeFromFrontValue());
