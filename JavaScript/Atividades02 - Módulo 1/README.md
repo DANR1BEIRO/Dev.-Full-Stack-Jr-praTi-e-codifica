@@ -92,23 +92,23 @@ Escreva um script que gere um número aleatório de 1 a 100 e peça ao usuário 
 Dada uma string como "olá olá mundo mundo", use if/else e for para extrair todas as palavras únicas e exibi-las em um array.
 Seção 2: Funções e Recursão
 
-[] 4. Fatorial Recursivo
+✅ 4. Fatorial Recursivo
 Implemente function fatorial(n) de forma recursiva. Trate n < 0 lançando um Error, e n === 0 retornando 1.
 
-[] 5. Debounce
+✅ 5. Debounce
 Crie function debounce(fn, delay) que receba uma função fn e um delay em milissegundos, retornando uma nova função que só executa fn se não for chamada novamente dentro do intervalo.
 
-[] 6. Memoization
+✅ 6. Memoization
 Implemente function memoize(fn) que armazene em cache chamadas anteriores de fn (com base nos argumentos), retornando resultados instantâneos nas invocações repetidas.
 Seção 3: Arrays e Objetos Complexos
 
-[] 7. Mapeamento e Ordenação
+✅ 7. Mapeamento e Ordenação
 Dado um array produtos = [{ nome, preco }, ...], crie uma função que retorne um novo array apenas com os nomes, ordenados por preço crescente, usando map e sort.
 
-[] 8. Agrupamento por Propriedade
+✅ 8. Agrupamento por Propriedade
 Com vendas = [{ cliente, total }, ...], use reduce para gerar um objeto onde cada chave é um cliente e o valor é a soma total de seus total.
 
-[] 9. Conversão Entre Formatos
+✅ 9. Conversão Entre Formatos
 Escreva duas funções:
 • paresParaObjeto(pares) recebe um array de pares [ [chave, valor], ... ] e retorna o objeto equivalente.
 • objetoParaPares(obj) faz o inverso, retornando um array de pares a partir de um objeto.
