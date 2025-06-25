@@ -25,25 +25,25 @@ Número de Aulas Previsto: 20
 - [x] 12 Depuração e Ferramentas de Desenvolvimento (Debugging)
 - [x] **Tarefa 1**
 - [x] 13 Recursividade: Conceito e Exemplos em JavaScript
-- [ ] 14 Estruturas de Dados: Pilhas (Stacks)
-- [ ] 15 Estruturas de Dados: Filas e Deques (Queues e Deques)
-- [ ] 16 Listas Ligadas (Linked Lists): Conceito e Implementação
-- [ ] 17 Árvores I: Estrutura e Operações Básicas
-- [ ] 18 Árvores II: Árvores Binárias de Busca (BST)
-- [ ] 19 Algoritmos de Ordenação: Bubble, Selection e Insertion Sort
-- [ ] 20 Algoritmos de Busca: Busca Linear e Binária
-- [ ] **Tarefa 2**
+- [x] 14 Estruturas de Dados: Pilhas (Stacks)
+- [x] 15 Estruturas de Dados: Filas e Deques (Queues e Deques)
+- [x] 16 Listas Ligadas (Linked Lists): Conceito e Implementação
+- [x] 17 Árvores I: Estrutura e Operações Básicas
+- [x] 18 Árvores II: Árvores Binárias de Busca (BST)
+- [x] 19 Algoritmos de Ordenação: Bubble, Selection e Insertion Sort
+- [x] 20 Algoritmos de Busca: Busca Linear e Binária
+- [x] **Tarefa 2**
 
 **Módulo 2: Desenvolvimento Web: Front-End Essencial e Controle de Versão**  
 Número de Aulas Previsto: 20
 
-- [ ] 1 Introdução ao Versionamento com Git e GitHub
-- [ ] 2 Comandos Básicos de Git: Commit, Push e Pull
-- [ ] 3 Colaboração em Projetos com Git e GitHub
-- [ ] 4 Introdução ao Desenvolvimento Web: História, Tecnologias e o Papel do Frontend
-- [ ] 5 Estrutura Básica de uma Página HTML: Cabeçalhos, Parágrafos e Listas
-- [ ] 6 Formulários e Inputs: Captura de Dados do Usuário
-- [ ] 7 Trabalhando com Links, Imagens e Mídia em HTML
+- [x] 1 Introdução ao Versionamento com Git e GitHub
+- [x] 2 Comandos Básicos de Git: Commit, Push e Pull
+- [x] 3 Colaboração em Projetos com Git e GitHub
+- [x] 4 Introdução ao Desenvolvimento Web: História, Tecnologias e o Papel do Frontend
+- [x] 5 Estrutura Básica de uma Página HTML: Cabeçalhos, Parágrafos e Listas
+- [x] 6 Formulários e Inputs: Captura de Dados do Usuário
+- [x] 7 Trabalhando com Links, Imagens e Mídia em HTML
 - [ ] **Tarefa 3**
 - [ ] 8 Estilizando Páginas com CSS: Seletores e Propriedades
 - [ ] 9 Layouts com CSS: Box Model e Posicionamento
