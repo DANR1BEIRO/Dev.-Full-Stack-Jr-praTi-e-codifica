@@ -85,7 +85,7 @@ Seção 1: Estruturas de Controle Avançadas
 ✅ 1. Validação de Datas
 Crie a função ehDataValida(dia, mes, ano) que retorne true se os valores formarem uma data real (considerando meses com 28 a 31 dias e ano bissexto para fevereiro) e false caso contrário.
 
-[] 2. Jogo de Adivinhação
+✅ 2. Jogo de Adivinhação
 Escreva um script que gere um número aleatório de 1 a 100 e peça ao usuário para adivinhar. Use while para repetir até acertar, contando tentativas e exibindo “mais alto” ou “mais baixo” a cada palpite errado.
 
 [] 3. Palavras Únicas
