@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Centralizado</title>
+    <style>
+        /* Centralizar o conteúdo na tela */
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            margin-bottom: 30px;
+        }
+
+        form {
+            background-color: white;
+            padding: 20px 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            min-width: 300px;
+        }
+
+        .form-row {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .form-row label {
+            width: 100px;
+            text-align: right;
+            margin-right: 10px;
+        }
+
+        .form-row input {
+            flex: 1;
+            padding: 2px;
+        }
+
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Registration</h1>
+
+    <form>
+        <div class="form-row">
+            <label for="name">Name:</label>
+            <input type="text" id="name">
+        </div>
+        <div class="form-row">
+            <label for="email">Email:</label>
+            <input type="email" id="email">
+        </div>
+        <div class="form-row">
+            <label for="password">Password:</label>
+            <input type="password" id="password">
+        </div>
+        <div class="form-row">
+            <label for="birthday">Birthday:</label>
+            <input type="date" id="birthday">
+        </div>
+        <div class="form-row">
+            <label for="cv">CV:</label>
+            <input type="file" id="cv">
+        </div>
+        <div class="form-row">
+            <label></label>
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+
+</body>
+
+</html>
