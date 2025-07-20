@@ -1,0 +1,43 @@
+h1 {
+    color: whitesmoke;
+    background-color: blue;
+}
+
+p {
+    color: gray;
+    background-color: yellow;
+}
+
+.primeiro {
+    color: whitesmoke;
+    background-color: black;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.segundo {
+    color: bisque;
+    background-color: brown;
+}
+
+#header {
+    text-align: center;
+    font-size: 60px;
+    font-weight: lighter;
+    font-style: oblique;
+    background-color: gray;
+}
+ul li {
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul li.importante:hover {
+    color: blueviolet;
+    background-color: cadetblue;
+}
+
+body {
+    background-color: whitesmoke;
+    margin: 5px;
+}
