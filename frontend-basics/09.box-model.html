@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        div {
+            border: 1px solid black;
+            font-size: 20px;
+        }
+
+        h2.content {
+            border: inherit;
+            border-color: lightblue;
+            width: 100px;
+            height: 100px;
+            padding: 10px;
+            box-sizing: border-box;
+            margin-left: 100px;
+        }
+
+        h2.units {
+            border: inherit;
+            height: 20pc;
+            width: 50%;
+            font-size: 3em;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h2 class="content">Bruce Wayne</h2>
+    </div>
+
+    <div>
+        <h2 class="units">unidades de medida</h2>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+body {
+    background-color: whitesmoke;
+}
+
+.pai {
+    color: orangered;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid blue;
+    margin: 50px;
+}
+
+.pai:hover {
+    background-color: blueviolet;
+}
+
+p {
+    background-color: white;
+    text-align: center;
+    border: 2px solid blue;
+    padding: 50px;
+    margin: 50px;
+}
+
+p:hover {
+    background-color: orange;
+}
