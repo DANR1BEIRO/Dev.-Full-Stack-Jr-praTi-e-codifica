@@ -44,14 +44,14 @@ Número de Aulas Previsto: 20
 - [x] 5 Estrutura Básica de uma Página HTML: Cabeçalhos, Parágrafos e Listas
 - [x] 6 Formulários e Inputs: Captura de Dados do Usuário
 - [x] 7 Trabalhando com Links, Imagens e Mídia em HTML
-- [ ] **Tarefa 3**
-- [ ] 8 Estilizando Páginas com CSS: Seletores e Propriedades
-- [ ] 9 Layouts com CSS: Box Model e Posicionamento
-- [ ] 10 Estilização Avançada com Flexbox
-- [ ] 11 Estilização Avançada com Grid Layout
-- [ ] 12 CSS Responsivo e Media Queries
-- [ ] 13 Introdução ao JavaScript: Conceitos e Uso no Frontend
-- [ ] 14 Manipulação de DOM com JavaScript
+- [x] **Tarefa 3**
+- [x] 8 Estilizando Páginas com CSS: Seletores e Propriedades
+- [x] 9 Layouts com CSS: Box Model e Posicionamento
+- [x] 10 Estilização Avançada com Flexbox
+- [x] 11 Estilização Avançada com Grid Layout
+- [x] 12 CSS Responsivo e Media Queries
+- [x] 13 Introdução ao JavaScript: Conceitos e Uso no Frontend
+- [x] 14 Manipulação de DOM com JavaScript
 - [ ] 15 Eventos e Interatividade em Páginas Web
 - [ ] 16 Trabalhando com Formulários e Validação de Campos com JavaScript
 - [ ] 17 Testes Unitários com Jest
