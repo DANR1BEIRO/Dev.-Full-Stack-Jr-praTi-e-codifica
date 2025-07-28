@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM e BOM</title>
+
+    <style>
+        .focado {
+            color:blueviolet;
+            font-size: 32px;
+            animation: tremble 0.1s infinite;
+        }
+
+        @keyframes tremble {
+            0%   { transform: translate(0, 0); }
+            25%  { transform: translate(-2px, 2px); }
+            50%  { transform: translate(2px, -2px); }
+            75%  { transform: translate(-2px, -2px); }
+            100% { transform: translate(0, 0); }
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1 id="titulo">Titulo</h1>
+    <button id="btnAlterar">Alterar Título</button>
+
+    <button id="btnAdicionar">Adicionar Item</button>
+    <ul id="lista"></ul>
+
+    <p id="paragrafo">Copa Mundial de Clubes</p>
+
+    <button onclick="mostrarDialogos()">Iniciar</button>
+    <button onclick="btnIr()">Ir para o google</button>
+    <button onclick="atualizar()">Atualizar página</button>
+    <button onclick="exibirInfo()">Exibir informações</button>
+
+    <pre id="saida"></pre>
+
+    <script>
+        const btn = document.getElementById('btnAlterar')
+        const titulo = document.getElementById('titulo')
+        const btnAdicionar = document.getElementById('btnAdicionar')
+        const lista = document.getElementById('lista')
+        const p = document.getElementById('paragrafo')
+
+        let contador = 1
+
+        btn.addEventListener('click', () => {
+            titulo.textContent = 'Título Atualizado'
+        }
+        )
+
+        btnAdicionar.addEventListener('click', () => {
+            const item = document.createElement('li')
+            item.textContent = `Item ${contador++}`
+
+            lista.appendChild(item)
+        })
+
+        p.addEventListener('mouseover', () => {
+            p.classList.add('focado')
+        })
+
+        p.addEventListener('mouseout', () => {
+            p.classList.remove('focado')
+        })
+
+        function mostrarDialogos() {
+            alert('Bem Vindo')
+            const nome = prompt('Digite seu nome:')
+
+            if(confirm(`Confirmar nome: ${nome}`)) {
+                alert(`Olá, ${nome}!`)
+            } else {
+                alert('Nome não confirmado')
+            }
+        }
+
+        function btnIr() {
+            window.location.href = 'www.google.com'
+        }
+
+        function atualizar() {
+            window.location.reload()
+        }
+
+        function exibirInfo() {
+            const info = {
+                userAgent: navigator.userAgent,
+                plataforma: navigator.platform,
+                idioma: navigator.language,
+                larguraTela: screen.width,
+                alturaTela: screen.height
+            }
+
+            document.getElementById('saida').textContent = JSON.stringify(info, null, 2)
+        }
+
+    </script>
+
+</body>
+
+</html>
