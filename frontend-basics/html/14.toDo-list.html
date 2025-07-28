@@ -1,28 +1,39 @@
 <!DOCTYPE html>
-
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TODO list</title>
+    <title>Lista de Compras</title>
     <link rel="stylesheet" href="../css/14.todolist.css">
 </head>
 
 <body>
     <div class="container">
-        <h1>ToDo list</h1>
+        <h1>Lista de compras</h1>
         <form id="form-adicionar">
             <input id="input-item" type="text" placeholder="Adicione um item..." required>
             <div class="botao">
                 <button type="submit" class="adicionar">Adicionar</button>
                 <button id="btn-limpar" class="limpar">Limpar Lista</button>
             </div>
-
-
+            <div class="controles">
+                <span id="contador-total">Total: 0</span>
+                <span id="contador-pendentes">Pendentes</span>
+                <span id="contador-comprados">Comprados</span>
+                <select name="" id="filtro-status">
+                    <option value="all">Todos</option>
+                    <option value="pending">Pendentes</option>
+                    <option value="purchased">Comprados</option>
+                </select>
+                <select name="" id="ordernar">
+                    <option value="default">Ordem Original</option>
+                    <option value="alphabetical">Ordem Alfabética</option>
+                    <option value="status">Por Status</option>
+                </select>
+            </div>
         </form>
         <ul id="lista-itens"></ul>
-
     </div>
     <script src="../JavaScript/app.js"></script>
 </body>
